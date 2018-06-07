@@ -5,16 +5,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <RelativeLayout
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginBottom="@dimen/margin_8dp"
+        android:layout_marginTop="@dimen/margin_8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/image_view"
             android:src="@drawable/logo_lavish"
-            android:layout_width="70dp"
-            android:layout_height="70dp" />
+            android:layout_width="@dimen/size_70dp"
+            android:layout_height="@dimen/size_70dp" />
 
 
         <TextView
@@ -22,35 +22,36 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_toRightOf="@+id/image_view"
+            android:layout_toEndOf="@+id/image_view"
             android:fontFamily="@font/alfa_slab_one"
             android:gravity="center"
-            android:text="The Fashion Point"
+            android:text="@string/text_fashion_point"
             android:textColor="@color/text"
-            android:textSize="20sp" />
+            android:textSize="@dimen/size_20sp" />
 
         <TextView
             android:id="@+id/tv_loc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tv1"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="@dimen/margin_20dp"
             android:layout_toEndOf="@+id/image_view"
             android:fontFamily="@font/amaranth"
             android:gravity="center"
             android:maxEms="10"
-            android:text="1120 N Street, Sacramento, California"
+            android:text="@string/business_address"
             android:textColor="@android:color/black" />
 
         <com.cunoraz.gifview.library.GifView
-            android:layout_marginTop="20dp"
-            android:layout_marginStart="20dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_marginStart="@dimen/margin_20dp"
             android:layout_toEndOf="@id/tv_loc"
             android:layout_alignParentEnd="true"
             app:gif="@drawable/pin"
+            android:id="@+id/gif_location"
             android:layout_gravity="center_vertical|center_horizontal"
-            android:layout_width="45dp"
-            android:layout_height="45dp" />
+            android:layout_width="@dimen/size_45dp"
+            android:layout_height="@dimen/size_45dp" />
 
 
     </RelativeLayout>

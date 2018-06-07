@@ -20,11 +20,11 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="wrap_content"
             android:gravity="center_horizontal|center_vertical"
             android:text="LAVISH"
             android:textColor="@android:color/white"
-            android:textSize="30sp"
+            android:textSize="@dimen/text_20sp"
             android:textStyle="bold" />
 
     </android.support.v7.widget.Toolbar>
@@ -33,16 +33,16 @@
     <include
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_marginTop="15dp"
-        layout="@layout/center_content"/>
+        android:layout_marginTop="@dimen/margin_15dp"
+        layout="@layout/card_info"/>
 
     <include
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginStart="@dimen/margin_8dp"
+        android:layout_marginEnd="@dimen/margin_8dp"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_marginTop="30dp"
-        layout="@layout/content_card"/>
+        android:layout_marginTop="@dimen/margin_30dp"
+        layout="@layout/center_card"/>
 
 
 
@@ -57,16 +57,16 @@
             android:layout_height="wrap_content">
 
             <Button
-                android:layout_margin="6dp"
+                android:layout_margin="@dimen/margin_8dp"
                 android:layout_weight="1"
                 android:id="@+id/btn_follow"
-                android:translationZ="8dp"
+                android:translationZ="@dimen/margin_8dp"
                 android:stateListAnimator="@null"
-                android:elevation="8dp"
+                android:elevation="@dimen/margin_8dp"
                 android:background="@color/follow_bg"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="@dimen/margin_4dp"
                 android:layout_gravity="center_vertical"
-                android:text="Follow Us"
+                android:text="@string/text_button_follow_us"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -77,19 +77,19 @@
                 android:layout_gravity="center_vertical|center_horizontal"
                 android:layout_weight="1"
                 android:fontFamily="@font/aclonica"
-                android:padding="4dp"
-                android:text="Or Show Us Some "
+                android:padding="@dimen/margin_4dp"
+                android:text="@string/text_link"
                 android:textColor="@color/text"
-                android:textSize="18sp" />
+                android:textSize="@dimen/text_18sp" />
 
 
             <com.like.LikeButton
                 android:layout_weight="1"
                 app:circle_start_color="@android:color/white"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="@dimen/margin_8dp"
                 app:icon_type="heart"
                 android:layout_gravity="center_horizontal"
-                app:icon_size="30dp"
+                app:icon_size="@dimen/margin_30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 

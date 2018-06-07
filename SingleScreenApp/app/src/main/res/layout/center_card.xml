@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView
-    app:cardCornerRadius="6dp"
-    android:elevation="6dp"
+    app:cardCornerRadius="@dimen/margin_6dp"
+    android:elevation="@dimen/margin_6dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,15 +17,16 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:fontFamily="@font/amita"
-            android:padding="14dp"
+            android:padding="@dimen/margin_8dp"
             android:text="@string/text_desc"
             android:textColor="@color/dark_purple"
-            android:textSize="20sp"
+            android:textSize="@dimen/size_20sp"
             android:textStyle="bold" />
 
         <ImageView
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="8dp"
+            android:contentDescription="@string/call_icon_content_desc"
+            android:layout_marginStart="@dimen/margin_4dp"
+            android:layout_marginTop="@dimen/margin_8dp"
             android:layout_centerVertical="true"
             android:id="@+id/icon_call"
             android:src="@drawable/ic_call_black_24dp"
@@ -34,40 +35,54 @@
             android:layout_height="wrap_content" />
 
         <TextView
-            android:layout_marginStart="4dp"
-            android:textSize="18sp"
-            android:layout_marginTop="8dp"
+            android:id="@+id/phone_number"
+            android:layout_marginStart="@dimen/margin_4dp"
+            android:textSize="@dimen/text_18sp"
+            android:layout_marginTop="@dimen/margin_8dp"
             android:layout_centerVertical="true"
             android:layout_toEndOf="@id/icon_call"
             android:textColor="@color/dark_purple"
             android:layout_below="@id/text_desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="+91 807578176" />
+            android:text="@string/phone_number" />
 
         <ImageView
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="8dp"
+            android:contentDescription="@string/mail_icon_content_desc"
+            android:layout_marginStart="@dimen/margin_4dp"
+            android:layout_marginTop="@dimen/margin_8dp"
             android:layout_centerVertical="true"
             android:id="@+id/icon_mail"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="@dimen/margin_8dp"
             android:src="@drawable/ic_mail_black_24dp"
             android:layout_below="@+id/icon_call"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:layout_marginStart="4dp"
-            android:textSize="18sp"
-            android:layout_marginTop="8dp"
+            android:id="@+id/tv_mail"
+            android:layout_marginStart="@dimen/margin_4dp"
+            android:textSize="@dimen/text_18sp"
+            android:layout_marginTop="@dimen/margin_8dp"
             android:layout_centerVertical="true"
             android:layout_toEndOf="@id/icon_mail"
             android:textColor="@color/dark_purple"
             android:layout_below="@id/icon_call"
             android:layout_width="wrap_content"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="@dimen/margin_8dp"
             android:layout_height="wrap_content"
-            android:text="support@lavish.com" />
+            android:text="@string/mail_address" />
+
+
+        <ImageView
+            android:contentDescription="@string/fashion_img_content_desc"
+            android:layout_below="@id/text_desc"
+            android:src="@drawable/fashion_img"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@id/tv_mail"
+            android:layout_width="@dimen/size_40dp"
+            android:layout_height="@dimen/size_80dp" />
+
 
     </RelativeLayout>
 
