@@ -10,5 +10,6 @@
     <string name="mail_icon_content_desc">Mail Icon</string>
     <string name="mail_address">support@lavish.com</string>
     <string name="fashion_img_content_desc">Fashion Image</string>
+    <string name="app_title">LAVISH</string>
 
 </resources>

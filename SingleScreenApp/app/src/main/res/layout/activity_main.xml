@@ -1,101 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:background="@drawable/toolbar_gradient"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:background="@drawable/toolbar_gradient"
-        android:minHeight="?android:attr/actionBarSize"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal|center_vertical"
-            android:text="LAVISH"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/text_20sp"
-            android:textStyle="bold" />
-
-    </android.support.v7.widget.Toolbar>
-
-
-    <include
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:layout_marginTop="@dimen/margin_15dp"
-        layout="@layout/card_info"/>
-
-    <include
-        android:layout_marginStart="@dimen/margin_8dp"
-        android:layout_marginEnd="@dimen/margin_8dp"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:layout_marginTop="@dimen/margin_30dp"
-        layout="@layout/center_card"/>
-
-
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_alignParentBottom="true"
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:background="@drawable/toolbar_gradient"
+            android:minHeight="?android:attr/actionBarSize"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <Button
-                android:layout_margin="@dimen/margin_8dp"
-                android:layout_weight="1"
-                android:id="@+id/btn_follow"
-                android:translationZ="@dimen/margin_8dp"
-                android:stateListAnimator="@null"
-                android:elevation="@dimen/margin_8dp"
-                android:background="@color/follow_bg"
-                android:layout_marginTop="@dimen/margin_4dp"
-                android:layout_gravity="center_vertical"
-                android:text="@string/text_button_follow_us"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
 
             <TextView
-                android:id="@+id/tv2"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical|center_horizontal"
-                android:layout_weight="1"
-                android:fontFamily="@font/aclonica"
-                android:padding="@dimen/margin_4dp"
-                android:text="@string/text_link"
-                android:textColor="@color/text"
-                android:textSize="@dimen/text_18sp" />
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/app_title"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_20sp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.Toolbar>
 
 
-            <com.like.LikeButton
-                android:layout_weight="1"
-                app:circle_start_color="@android:color/white"
-                android:layout_marginTop="@dimen/margin_8dp"
-                app:icon_type="heart"
-                android:layout_gravity="center_horizontal"
-                app:icon_size="@dimen/margin_30dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+        <include
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/margin_15dp"
+            layout="@layout/card_info"/>
 
-        </LinearLayout>
-    </RelativeLayout>
+        <include
+            android:layout_marginStart="@dimen/margin_8dp"
+            android:layout_marginEnd="@dimen/margin_8dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/margin_30dp"
+            layout="@layout/center_card"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_margin="@dimen/margin_8dp"
+                    android:layout_weight="1"
+                    android:id="@+id/btn_follow"
+                    android:translationZ="@dimen/margin_8dp"
+                    android:stateListAnimator="@null"
+                    android:elevation="@dimen/margin_8dp"
+                    android:background="@color/follow_bg"
+                    android:layout_marginTop="@dimen/margin_4dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/text_button_follow_us"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/aclonica"
+                    android:padding="@dimen/margin_4dp"
+                    android:text="@string/text_link"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/text_18sp" />
 
 
+                <com.like.LikeButton
+                    android:layout_weight="1"
+                    app:circle_start_color="@android:color/white"
+                    android:layout_marginTop="@dimen/margin_8dp"
+                    app:icon_type="heart"
+                    android:layout_gravity="center_horizontal"
+                    app:icon_size="@dimen/margin_30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
 
-</LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

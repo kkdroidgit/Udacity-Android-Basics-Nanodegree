@@ -13,11 +13,7 @@ import com.cunoraz.gifview.library.GifView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button follow_button;
-    GifView location_view;
-    TextView phone_text;
-    TextView mailing_address;
-    Intent intent = null;
+    private Intent intent = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,10 +21,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // init views
-        follow_button = findViewById(R.id.btn_follow);
-        location_view = findViewById(R.id.gif_location);
-        phone_text = findViewById(R.id.phone_number);
-        mailing_address = findViewById(R.id.tv_mail);
+        Button follow_button = findViewById(R.id.btn_follow);
+        GifView location_view = findViewById(R.id.gif_location);
+        TextView phone_text = findViewById(R.id.phone_number);
+        TextView mailing_address = findViewById(R.id.tv_mail);
 
 
         phone_text.setOnClickListener(new View.OnClickListener() {
@@ -78,6 +74,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
+
+
+
+
 
 
 }
