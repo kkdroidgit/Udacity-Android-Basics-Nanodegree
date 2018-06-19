@@ -8,5 +8,5 @@ Android Basics is a Course provided by Google on Udacity
 
 ## Project 2: [Score Keeper App](https://github.com/kkdroidgit/Udacity-Android-Basics-Nanodegree/tree/master/CourtCounter)
 
-[![Click here to watch the video](https://www.youtube.com/watch?v=M8vMGx2iCLA)
+[![Click here to watch the video][https://img.youtube.com/vi/M8vMGx2iCLA/0.jpg](https://www.youtube.com/watch?v=M8vMGx2iCLA)
 
