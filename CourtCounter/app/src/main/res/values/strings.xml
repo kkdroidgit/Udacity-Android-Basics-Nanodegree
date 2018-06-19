@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CourtCounter</string>
+
+    <string name="instructions">The objective of this game is to score more
+        points than the other team during the allotted time.
+        \nField goal (3 points) \n Touchdown (6 points) \n Penalty (-1)
+    </string>
+    <string name="reset_text">Reset</string>
+    <string name="app_title">Score Keeper</string>
+    <string name="enter_text">Enter the Team Names</string>
+    <string name="enter_first_team_name">Enter First Team Name</string>
+    <string name="enter_second_team_name">Enter Second Team Name</string>
+    <string name="read_game_instructions">Read Game Instructions</string>
+    <string name="start">Start</string>
+    <string name="app_logo_content_desc">App Logo</string>
+    <string name="separator">-</string>
+    <string name="colon">:</string>
+    <string name="penalty">Penalty</string>
+    <string name="extra_point">Extra Point</string>
+    <string name="field_goal">Field Goal</string>
+
+
+</resources>

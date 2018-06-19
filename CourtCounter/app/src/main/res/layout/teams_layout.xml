@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.CardView
+        card_view:cardBackgroundColor="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_margin="@dimen/dimen_12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/logoteamOne"
+                android:src="@drawable/logo_one"
+                android:layout_alignParentStart="true"
+                android:layout_width="@dimen/dimen_70dp"
+                android:layout_height="@dimen/dimen_70dp" />
+
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:id="@+id/team_a_score"
+                android:layout_marginEnd="@dimen/dimen_12dp"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/text_40sp"
+                android:layout_toStartOf="@id/score_separator"
+                android:text="@string/separator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:id="@+id/team_b_score"
+                android:layout_marginStart="@dimen/dimen_12dp"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/text_40sp"
+                android:layout_toEndOf="@id/score_separator"
+                android:text="@string/separator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:textColor="@android:color/white"
+                android:id="@+id/score_separator"
+                android:textSize="@dimen/text_38sp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/colon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/logoteamTwo"
+                android:src="@drawable/logo_two"
+                android:layout_alignParentEnd="true"
+                android:layout_width="@dimen/dimen_70dp"
+                android:layout_height="@dimen/dimen_70dp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:background="@drawable/button_points"
+                android:layout_margin="@dimen/dimen_16dp"
+                android:onClick="fieldGoalTeamA"
+                android:text="@string/field_goal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:background="@drawable/button_points"
+                android:layout_margin="@dimen/dimen_16dp"
+                android:onClick="epTeamA"
+                android:text="@string/extra_point"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:background="@drawable/button_points"
+                android:layout_margin="@dimen/dimen_16dp"
+                android:onClick="penaltyTeamA"
+                android:text="@string/penalty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:background="@drawable/button_points"
+                android:layout_margin="@dimen/dimen_16dp"
+                android:onClick="fieldGoalTeamB"
+                android:text="@string/field_goal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:background="@drawable/button_points"
+                android:layout_margin="@dimen/dimen_16dp"
+                android:onClick="epTeamB"
+                android:text="@string/extra_point"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:background="@drawable/button_points"
+                android:layout_margin="@dimen/dimen_16dp"
+                android:onClick="penaltyTeamB"
+                android:text="@string/penalty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

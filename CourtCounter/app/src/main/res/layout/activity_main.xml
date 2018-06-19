@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blueback"
+    tools:context=".MainActivity">
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:minHeight="?android:attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/toolbar_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            tools:text="Hello"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_26sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <Button
+        android:fontFamily="@font/aclonica"
+        android:paddingBottom="@dimen/dimen_8dp"
+        android:paddingTop="@dimen/dimen_8dp"
+        android:paddingStart="@dimen/dimen_20dp"
+        android:paddingEnd="@dimen/dimen_20dp"
+        android:textColor="@android:color/white"
+        tools:text="4th April 2018"
+        android:background="@drawable/rounded_button_date"
+        android:id="@+id/button_date"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <include
+        android:layout_below="@id/button_date"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dimen_12dp"
+        android:id="@+id/teams_layout"
+        layout="@layout/teams_layout"/>
+
+
+    <Button
+        android:layout_marginBottom="@dimen/dimen_12dp"
+        android:background="@drawable/rounded_button_date"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/aclonica"
+        android:onClick="resetGame"
+        android:text="@string/reset_text"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
