@@ -16,8 +16,8 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
-    int scoreTeamA = 0;
-    int scoreTeamB = 0;
+    int scoreTeamA;
+    int scoreTeamB;
     TextView scoreViewA;
     TextView scoreViewB;
     String teamTwo;
@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void penaltyTeamA(View view) {
-        scoreTeamA += 1;
+        scoreTeamA -= 1;
         displayForTeamA(scoreTeamA);
     }
 
@@ -130,12 +130,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void epTeamB(View view) {
-        scoreTeamB += 2;
+        scoreTeamB += 6;
         displayForTeamB(scoreTeamB);
     }
 
     public void penaltyTeamB(View view) {
-        scoreTeamB += 1;
+        scoreTeamB -= 1;
         displayForTeamB(scoreTeamB);
     }
 
