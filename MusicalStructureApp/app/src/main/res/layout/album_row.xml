@@ -1,0 +1,32 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:contentDescription="@string/song_cover"
+            android:id="@+id/album_image"
+            android:layout_width="@dimen/dimen_180dp"
+            android:layout_height="@dimen/dimen_180dp"
+            android:layout_margin="@dimen/dimen_4dp"
+            android:src="@drawable/cover_closer"/>
+
+        <TextView
+            android:textSize="@dimen/text_20sp"
+            android:layout_below="@id/album_image"
+            android:id="@+id/album_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_4dp"
+            android:maxLines="1"
+            android:scrollbars="horizontal"
+            tools:text="Name" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

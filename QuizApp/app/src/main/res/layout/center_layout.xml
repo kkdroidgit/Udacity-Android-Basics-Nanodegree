@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="@dimen/margin_12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginStart="@dimen/margin_8dp"
+                    android:id="@+id/tv1"
+                    android:text="@string/questionOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupOne"
+                    android:layout_marginTop="@dimen/margin_6dp"
+                    android:layout_below="@+id/tv1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radio_captcha1"
+                        android:layout_marginTop="@dimen/margin_4dp"
+                        android:text="@string/questionOneOptionOne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <RadioButton
+                        android:id="@+id/radio_captcha2"
+                        android:layout_marginTop="@dimen/margin_4dp"
+                        android:text="@string/questionOneOptionTwo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <RadioButton
+                        android:layout_marginTop="@dimen/margin_4dp"
+                        android:id="@+id/radio_captcha3"
+                        android:text="@string/questionOneOptionThree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <RadioButton
+                        android:id="@+id/radio_captcha4"
+                        android:layout_marginTop="@dimen/margin_4dp"
+                        android:text="@string/questionOneOptionFour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </RadioGroup>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="@dimen/margin_12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginStart="@dimen/margin_8dp"
+                    android:id="@+id/tv2"
+                    android:text="@string/questionTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupTwo"
+                    android:layout_marginTop="@dimen/margin_6dp"
+                    android:layout_below="@+id/tv2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radio_cash1"
+                        android:layout_marginTop="@dimen/margin_4dp"
+                        android:text="@string/questionTwoOptionOne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <RadioButton
+                        android:id="@+id/radio_cash2"
+                        android:layout_marginTop="@dimen/margin_4dp"
+                        android:text="@string/questionTwoOptionTwo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <RadioButton
+                        android:id="@+id/radio_cash3"
+                        android:layout_marginTop="@dimen/margin_4dp"
+                        android:text="@string/questionTwoOptionThree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <RadioButton
+                        android:id="@+id/radio_cash4"
+                        android:layout_marginTop="@dimen/margin_4dp"
+                        android:text="@string/questionTwoOptionFour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </RadioGroup>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+            android:layout_marginTop="@dimen/margin_12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginStart="@dimen/margin_8dp"
+                    android:id="@+id/tv3"
+                    android:text="@string/questionThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <CheckBox
+                    android:layout_marginTop="@dimen/margin_6dp"
+                    android:id="@+id/cb1"
+                    android:layout_below="@id/tv3"
+                    android:text="@string/questionThreeOptionOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <CheckBox
+                    android:layout_marginTop="@dimen/margin_4dp"
+                    android:id="@+id/cb2"
+                    android:layout_below="@id/cb1"
+                    android:text="@string/questionThreeOptionTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <CheckBox
+                    android:layout_marginTop="@dimen/margin_4dp"
+                    android:id="@+id/cb3"
+                    android:layout_below="@id/cb2"
+                    android:text="@string/questionThreeOptionThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <CheckBox
+                    android:id="@+id/cb4"
+                    android:layout_marginTop="@dimen/margin_12dp"
+                    android:layout_below="@+id/cb3"
+                    android:text="@string/questionThreeOptionFour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+            android:layout_marginTop="@dimen/margin_12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginStart="@dimen/margin_8dp"
+                    android:id="@+id/tv4"
+                    android:text="@string/questionFour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/input_editText"
+                    android:layout_marginStart="@dimen/margin_8dp"
+                    android:layout_marginTop="@dimen/margin_12dp"
+                    android:inputType="text"
+                    android:hint="@string/hintAnswerFour"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_play_arrow_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/play_now"/>
+    <item
+        android:icon="@drawable/ic_playlist_add_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/add_to_playlist"/>
+    <item
+        android:icon="@drawable/ic_file_download_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/download"/>
+    <item
+        android:icon="@drawable/ic_share_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/share"/>
+</menu>

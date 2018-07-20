@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@android:color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PlaySongActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:contentInsetLeft="@dimen/dimen_0dp"
+        android:background="@color/colorPrimary"
+        app:contentInsetStart="@dimen/dimen_0dp"
+        app:contentInsetStartWithNavigation="@dimen/dimen_0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fira_mono"
+            android:text="@string/now_playing"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_24sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:contentDescription="@string/song_cover"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/songCover"
+        android:src="@drawable/cover_closer"
+        android:layout_marginStart="@dimen/dimen_30dp"
+        android:layout_marginEnd="@dimen/dimen_30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:id="@+id/centerView"
+        android:layout_below="@id/songCover"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/layout_center_play_song"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="@dimen/dimen_50dp"
+        app:lottie_loop="true"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        app:lottie_fileName="funky.json"
+        android:id="@+id/animationView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/centerView"
+        android:layout_height="@dimen/dimen_50dp" />
+
+    <RelativeLayout
+        android:layout_above="@id/bottomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/startSeekbar"
+            android:layout_marginStart="@dimen/dimen_4dp"
+            android:layout_alignParentStart="true"
+            android:text="@string/start_dur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_below="@id/startSeekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_marginEnd="@dimen/dimen_4dp"
+            android:layout_alignParentEnd="true"
+            android:text="@string/end_dur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottomView"
+        layout="@layout/layout_media_controls"/>
+
+</RelativeLayout>

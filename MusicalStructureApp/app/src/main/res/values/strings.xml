@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Infinity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Droid God</string>
+    <string name="userEmail">SoReadyToHelp@so.com</string>
+    <string name="songName">Closer</string>
+    <string name="songDesc">Halsey, The Chainsmokers - Closer</string>
+    <string name="overflow_options">Overflow options</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="skip_next">Skip Next</string>
+    <string name="play_song">Play</string>
+    <string name="skip_prev">Skip Previous</string>
+    <string name="repeat">Repeat</string>
+    <string name="text_info">No Downloads</string>
+    <string name="error_message">Error Message</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="song_cover">Song Cover</string>
+    <string name="start_dur">00:00</string>
+    <string name="end_dur">04:00</string>
+    <string name="share">Share</string>
+    <string name="play_now">Play Now</string>
+    <string name="add_to_playlist">Add to Playlist</string>
+    <string name="download">Download</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="download_all">Download All</string>
+    <string name="save_as_playlist">Save as Playlist</string>
+    <string name="edit_queue">Edit Queue</string>
+    <string name="clear_player">Clear Player</string>
+    <string name="options">Options</string>
+    <string name="songOne">Scorpion</string>
+    <string name="songTwo">High As Hope</string>
+    <string name="songThree">The Now Now</string>
+    <string name="songFour">Invasion of Privacy</string>
+    <string name="songFive">Everything is Love</string>
+    <string name="songSix">Pray for the Wicked</string>
+    <string name="songSeven">Appetite for Destruction</string>
+    <string name="songEight">The Greatest Showman</string>
+    <string name="songNine">Red Pill Blues</string>
+    <string name="songTen">Gravity</string>
+    <string name="songEleven">Shawn Mendes</string>
+    <string name="songTwelve">Youngblood</string>
+    <string name="home">Home</string>
+    <string name="recents">Recents</string>
+    <string name="top_charts">Top Charts</string>
+    <string name="releases">New releases</string>
+    <string name="albums">Music Albums</string>
+    <string name="stations">Browse Stations</string>
+    <string name="down_only">Downloaded Only</string>
+    <string name="settings">Settings</string>
+    <string name="hpf"><![CDATA[Help & feedback]]></string>
+    <string name="text_start">This is Song</string>
+    <string name="text_artist">Name of the Artist</string>
+</resources>

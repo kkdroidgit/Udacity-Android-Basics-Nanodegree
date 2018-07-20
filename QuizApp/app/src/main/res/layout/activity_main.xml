@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    android:focusableInTouchMode="false"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <include
+        android:layout_marginTop="@dimen/margin_4dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/center_layout"/>
+
+    <Button
+        android:onClick="submitAnswers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_12dp"
+        android:background="@drawable/button_gradient"
+        android:text="@string/submit"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size_28sp"/>
+
+
+    </LinearLayout>
+</ScrollView>

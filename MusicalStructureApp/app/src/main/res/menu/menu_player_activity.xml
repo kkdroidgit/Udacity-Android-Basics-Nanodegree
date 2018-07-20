@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/clear_player"/>
+    <item
+        android:title="@string/edit_queue"/>
+    <item
+        android:title="@string/save_as_playlist"/>
+    <item
+        android:title="@string/download_all"/>
+    <item
+        android:title="@string/equalizer"/>
+</menu>

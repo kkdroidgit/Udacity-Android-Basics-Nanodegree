@@ -1,0 +1,51 @@
+<RelativeLayout
+    android:background="@android:color/white"
+    android:padding="8dp"
+    android:layout_marginTop="12dp"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:contentDescription="@string/repeat"
+        android:layout_centerVertical="true"
+        android:id="@+id/repeatSong"
+        android:src="@drawable/ic_repeat_black_24dp"
+        android:layout_alignParentStart="true"
+        android:layout_width="@dimen/dimen_30dp"
+        android:layout_height="@dimen/dimen_30dp" />
+
+    <ImageView
+        android:contentDescription="@string/skip_prev"
+        android:layout_toStartOf="@id/playSong"
+        android:id="@+id/skipPrev"
+        android:src="@drawable/ic_skip_previous_black_24dp"
+        android:layout_width="@dimen/dimen_50dp"
+        android:layout_height="@dimen/dimen_50dp" />
+
+    <ImageView
+        android:contentDescription="@string/play_song"
+        android:id="@+id/playSong"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_play_arrow_black_24dp"
+        android:layout_width="@dimen/dimen_50dp"
+        android:layout_height="@dimen/dimen_50dp" />
+
+    <ImageView
+        android:contentDescription="@string/skip_next"
+        android:layout_toEndOf="@id/playSong"
+        android:id="@+id/skipNext"
+        android:src="@drawable/ic_skip_next_black_24dp"
+        android:layout_width="@dimen/dimen_50dp"
+        android:layout_height="@dimen/dimen_50dp" />
+
+    <ImageView
+        android:contentDescription="@string/shuffle"
+        android:id="@+id/songShuffle"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_shuffle_black_24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_width="@dimen/dimen_30dp"
+        android:layout_height="@dimen/dimen_30dp" />
+</RelativeLayout>

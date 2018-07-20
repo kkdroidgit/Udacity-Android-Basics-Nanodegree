@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abril_fatface</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/asap</item>
+        <item>@font/days_one</item>
+        <item>@font/droid_serif</item>
+        <item>@font/fira_mono</item>
+    </array>
+</resources>

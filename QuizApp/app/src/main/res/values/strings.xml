@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">QuizApp</string>
+    <string name="questionOne">What is the full form of captcha?</string>
+    <string name="questionOneOptionOne">Completely Automated Public Turing test to tell Computers and Humans Apart</string>
+    <string name="questionOneOptionTwo">Computer Automated Public Turing test to tell Computers and Humans Apart</string>
+    <string name="questionOneOptionThree">Completely Automated Public Turning test to tell Computers and Humans Apart</string>
+    <string name="questionOneOptionFour">Completely Automated Public Turing test to tell Commons and Horses Apart</string>
+    <string name="questionTwoOptionOne">Cotton</string>
+    <string name="questionTwoOptionTwo">Rice</string>
+    <string name="questionTwoOptionThree">Marijuana</string>
+    <string name="questionTwoOptionFour">Apples</string>
+    <string name="questionThreeOptionOne">Ubuntu</string>
+    <string name="questionThreeOptionTwo">Microsoft</string>
+    <string name="questionThreeOptionThree">Mint</string>
+    <string name="questionThreeOptionFour">Kali</string>
+    <string name="questionFour">What is the full form of FLOTUS</string>
+    <string name="hintAnswerFour">Answer here</string>
+    <string name="questionThree">Which of the following are Linux Distros?</string>
+    <string name="questionTwo">Most valuable cash crop in the world?</string>
+    <string name="submit">Submit</string>
+    <string name="start_the_quiz">Start the Quiz</string>
 </resources>
