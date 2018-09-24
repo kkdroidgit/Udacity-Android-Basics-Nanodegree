@@ -1,3 +1,53 @@
 <resources>
     <string name="app_name">TourGuideApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="string_date">12 Aug</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="custom_image">Custom Image</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="name1">Universal Studios Singapore</string>
+    <string name="name2">Singapore Flyer</string>
+    <string name="name3">Gardens by the Bay</string>
+    <string name="name4">Night Safari Nocturnal Water Park</string>
+    <string name="name5">Singapore Zoo</string>
+    <string name="name6">Marina Bay</string>
+    <string name="name7">Infinity Pool</string>
+    <string name="name8">MYOB</string>
+    <string name="name9">Paitech</string>
+    <string name="name10">99designs</string>
+    <string name="name11">BlockFreight</string>
+    <string name="name12">CultureAmp</string>
+    <string name="name13">Merlion Park</string>
+    <string name="name14">Sentosa Island</string>
+    <string name="name15">Juron Bird Park</string>
+    <string name="rest1">Kuriya Dining</string>
+    <string name="rest2">Jiang Nan Chun</string>
+    <string name="rest3">Basilico Restaurant</string>
+    <string name="rest4">Rubharb Le</string>
+    <string name="rest5">Whitegrass Restaurant</string>
+    <string name="rest6">Saint Pierre</string>
+    <string name="rest7">Ushidoki Wagyu Kaiseki</string>
+    <string name="rest8">Entre Nous Creperie</string>
+    <string name="event1">Experience Lab</string>
+    <string name="event2">Lim Cheng Hoe: Painting Singapore</string>
+    <string name="event3">DigiMuse</string>
+    <string name="event4">Hyperplay</string>
+    <string name="event5">Lorem ipsum dolor</string>
+    <string name="event6">sit amet, consectetur</string>
+    <string name="event7">adipiscing elit. Nunc</string>
+    <string name="event_8">eget euismod velit</string>
+    <string name="event9">In consectetur</string>
+    <string name="event_10">ac lectus</string>
+    <string name="event_11">mattis efficitur. Sed</string>
+    <string name="shop1">Orchard Road</string>
+    <string name="shop2">Chinatown Street Market</string>
+    <string name="shop3">VivoCity</string>
+    <string name="shop4">HajiLane</string>
+    <string name="shop5">Shoppes at Marina Bay Sands</string>
+    <string name="shop6">Little India</string>
+    <string name="shop7">Clarke Quay</string>
+    <string name="shop8">Mustafa Centre</string>
+    <string name="shop9">Bugis Street Market</string>
+    <string name="shop10">Raffles Shopping Centre</string>
 </resources>

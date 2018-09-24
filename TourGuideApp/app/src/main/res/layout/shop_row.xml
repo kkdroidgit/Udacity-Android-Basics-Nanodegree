@@ -1,0 +1,52 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="@dimen/dimen_4dp"
+            android:layout_marginTop="@dimen/dimen_4dp"
+            android:layout_alignParentStart="true"
+            android:id="@+id/shopName"
+            tools:text="Shop Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_marginStart="@dimen/dimen_4dp"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_below="@id/shopName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="@dimen/dimen_4dp"
+            android:layout_marginStart="@dimen/dimen_4dp"
+            android:layout_toStartOf="@id/shop_image"
+            android:textSize="@dimen/text_18sp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ratingBar"
+            android:text="@string/lorem_ipsum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:contentDescription="@string/custom_image"
+            android:scaleType="center"
+            android:layout_alignParentEnd="true"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/shop_image"
+            android:layout_width="@dimen/dimen_150dp"
+            android:layout_height="@dimen/dimen_120dp"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
