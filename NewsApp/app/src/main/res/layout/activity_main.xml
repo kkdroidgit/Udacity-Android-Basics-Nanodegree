@@ -5,22 +5,20 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
-
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:minHeight="?android:attr/actionBarSize"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/averia_sans_libre_light"
             android:gravity="center_horizontal|center_vertical"
-            android:text="OK News"
+            android:text="@string/app_name"
             android:textColor="@android:color/black"
-            android:textSize="20sp"
+            android:textSize="@dimen/text_20sp"
             android:textStyle="bold" />
 
     </android.support.v7.widget.Toolbar>
@@ -39,8 +37,8 @@
         app:lottie_loop="true"
         app:lottie_autoPlay="true"
         app:lottie_fileName="news.json"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="@dimen/dimen_70dp"
+        android:layout_height="@dimen/dimen_70dp"
         android:id="@+id/custom_loader"
         android:layout_centerInParent="true"
         android:indeterminate="true" />

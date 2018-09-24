@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">OK News</string>
     <string name="interneterrormessages">No Internet Connection Found. Please try again later.</string>
-    <string name="errorcustomessage">Error Parsing Response</string>
-    <string name="sample_image">Sample Image</string>
+    <string name="app_name">OK News</string>
+    <string name="custom_image">Custom Image</string>
 </resources>
